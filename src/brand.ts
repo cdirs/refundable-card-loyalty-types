@@ -1,5 +1,6 @@
 type Brand = {
   id?: string;
+  connectionId?: string;
   name: string;
   apiKey?: string;
 };
