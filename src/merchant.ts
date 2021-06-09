@@ -4,6 +4,7 @@ type Merchant = {
   name: string;
   logoUrl: string;
   websiteUrl: string;
+  active?: boolean;
 };
 
 export default Merchant;
