@@ -9,6 +9,7 @@ type Brand = {
   expiryMonth: string;
   expiryYear: string;
   countryOfIssue: string;
+  active?: boolean;
 };
 
 export default Brand;
