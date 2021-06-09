@@ -6,6 +6,7 @@ type Brand = {
   userId: string;
   lastDigits?: string;
   cardNumber?: string;
+  type?: string;
   expiryMonth: string;
   expiryYear: string;
   countryOfIssue: string;
