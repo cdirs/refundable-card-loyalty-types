@@ -1,10 +1,11 @@
 import Brand from './brand';
 import Card from './card';
+import Location from './location';
 import Merchant from './merchant';
 
 type Transaction = {
   id?: string;
-  connectionId?: string;
+  connectionId: string;
   brandId?: string;
   brand?: Brand;
   created: string;
@@ -18,9 +19,9 @@ type Transaction = {
   currency: string;
   wallet?: any;
   card: Card;
-  merchantId?: string;
+  merchantId: string;
   merchant?: Merchant;
-  locationId?: string;
+  locationId: string;
   location?: Location;
   identifiers: any;
 };
