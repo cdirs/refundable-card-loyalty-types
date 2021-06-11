@@ -18,7 +18,8 @@ type Transaction = {
   amount: number;
   currency: string;
   wallet?: any;
-  card: Card;
+  cardId: string;
+  card?: Card;
   merchantId: string;
   merchant?: Merchant;
   locationId: string;
