@@ -13,6 +13,7 @@ type Location = {
   postalCode: string;
   country: string;
   merchantIds?: string[];
+  geoHash?: string;
 };
 
 export default Location;
