@@ -1,7 +1,7 @@
 type Brand = {
   id?: string;
   connectionId?: string;
-  brandId: string;
+  brandId?: string;
   brand?: Brand;
   userId: string;
   lastDigits?: string;
@@ -9,7 +9,7 @@ type Brand = {
   type?: string;
   expiryMonth: number;
   expiryYear: number;
-  countryOfIssue: string;
+  countryOfIssue?: string;
   active?: boolean;
 };
 
