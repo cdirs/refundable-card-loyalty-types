@@ -7,8 +7,8 @@ type Brand = {
   lastDigits?: string;
   cardNumber?: string;
   type?: string;
-  expiryMonth: string;
-  expiryYear: string;
+  expiryMonth: number;
+  expiryYear: number;
   countryOfIssue: string;
   active?: boolean;
 };
