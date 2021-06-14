@@ -14,6 +14,7 @@ type Location = {
   country: string;
   merchantIds?: string[];
   geoHash?: string;
+  distance?: number;
 };
 
 export default Location;
