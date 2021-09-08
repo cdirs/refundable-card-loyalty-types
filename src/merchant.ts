@@ -7,6 +7,7 @@ type Merchant = {
   image?: string;
   websiteUrl: string;
   active?: boolean;
+  baseRefundPercentage?: number;
 };
 
 export default Merchant;
